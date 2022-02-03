@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function CategoryItem(props) {
   const { idCategory, strCategory, strCategoryThumb, strCategoryDescription } =
     props;
+  
+ 
   return (
     <div className="card">
       <div className="card-image">

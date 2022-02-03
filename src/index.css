@@ -31,6 +31,19 @@ nav {
   flex-direction: column;
 }
 
+.img {
+  width: 500px;
+}
+
+.img,
+iframe {
+  max-width: 100%;
+}
+iframe {
+  width: 600px;
+  height: 350px;
+}
+
 .card-content {
   flex-grow: 1;
 }
