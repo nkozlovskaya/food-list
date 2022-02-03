@@ -10,7 +10,7 @@ import { Recipe } from "./pages/Recipe";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/food-list">
         <Header />
         <main className="container content">
           <Routes>
